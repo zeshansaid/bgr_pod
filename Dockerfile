@@ -1,8 +1,6 @@
-FROM nvidia/cuda:11.7.1-cudnn8-runtime-ubuntu20.04
+FROM nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu20.04
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
-
-WORKDIR /
 
 SHELL ["/bin/bash", "-c"]
 ENV DEBIAN_FRONTEND=noninteractive
